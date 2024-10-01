@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-project-docs
+  description: Documentation for My Project
+  annotations:
+    backstage.io/techdocs-ref: url:https://github.com/edominov/documentation-for-test
+spec:
+  type: service
+  owner: edominov
+  lifecycle: production
