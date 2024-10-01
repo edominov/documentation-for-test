@@ -1,0 +1,4 @@
+techdocs:
+  storage:
+    type: local
+    storagePath: ./docs
